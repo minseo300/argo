@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
         - name: cicd_demo
-          image: lmslmsms0616/sa-project:11
+          image: lmslmsms0616/sa-project:12
           ports:
             - containerPort: 8080 # 컨테이너 포트
