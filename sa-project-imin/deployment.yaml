@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
         - name: cicd_demo
-          image: lmslmsms0616/sa-project:{jenkins build number} # docker image
+          image: lmslmsms0616/sa-project:11
           ports:
             - containerPort: 8080 # 컨테이너 포트
