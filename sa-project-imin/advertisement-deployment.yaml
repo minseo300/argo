@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
         - name: ad
-          image: lmslmsms0616/chatbot-advertisement:{jenkins build number}
+          image: lmslmsms0616/chatbot-advertisement:1
           ports:
             - containerPort: 8080 # 컨테이너 포트
