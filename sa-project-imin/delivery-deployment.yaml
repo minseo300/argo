@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
         - name: del
-          image: lmslmsms0616/chatbot-delivery:{jenkins build number}
+          image: lmslmsms0616/chatbot-delivery:1
           ports:
             - containerPort: 8080 # 컨테이너 포트
